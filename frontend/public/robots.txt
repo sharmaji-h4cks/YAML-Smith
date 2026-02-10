@@ -1,0 +1,35 @@
+# robots.txt for YAML Smith - Cloud-Native DevOps Automation Platform
+# https://yamlsmith.dev
+
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /admin/
+
+# Sitemap
+Sitemap: https://yamlsmith.dev/sitemap.xml
+
+# Crawl delay (optional, be respectful to servers)
+Crawl-delay: 1
+
+# Popular search engine bots
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+User-agent: YandexBot
+Allow: /
